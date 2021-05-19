@@ -6,10 +6,7 @@
     --figura: #ff6a6a;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     font-family: 'Averia Serif Libre', cursive;
@@ -18,8 +15,8 @@ body {
 }
 
 body.portada{
-    background:var(--fondo) url('clase10/remake/images/portada.jpg') right bottom no-repeat;
-    background-size:auto 80%;
+    background:var(--fondo) url('images/portada.jpg') right bottom no-repeat;
+    background-size:auto 100%;
 }
 
 a {
@@ -36,3 +33,12 @@ a:hover {
     transition: all ease .5s;
 }
 
+main div#mapa{
+    margin:1%;
+    width:98%;
+    height:60vh;
+}
+
+main canvas#grafico{
+    background:#111;
+}

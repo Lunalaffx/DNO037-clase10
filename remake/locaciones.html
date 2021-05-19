@@ -5,23 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
         <title>REMAKE</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="container">
-            <nav>
+        <div class="container fixed-top">
+            <nav class="d-flex justify-content-between py-3">
                 <a href="index.html">Portada</a> <a href="peliculas.html">Películas</a> <a href="locaciones.html" class="active">Locaciones</a> <a href="ganancias.html">Ganancias</a>
             </nav>
-            <main>
-                <div id="mapa">
+            <main class="container py-5">
+                <div id="mapa" class="row py-3 d-flex">
                     <!--acá se mete el mapa-->
                 </div>
             </main>
-            <footer>
-                <p><a href="https://github.com/Lunalaffx">Luna Valentina Morales</a> <a href="https://github.com/Lunalaffx/DNO037-clase8">DNO037-clase8</a></p>
+            <footer class="container">
+                <div class="row">
+                    <div class="col-10 col-sm-9 col-md-8 col-lg-7 mx-auto pt-4 pb-2">
+                        <p class="d-flex justify-content-between align-items-center"><a href="https://github.com/Lunalaffx" >Luna Valentina Morales</a> <a href="https://github.com/Lunalaffx/DNO037-clase10" >Diseño y nuevos medios clase10</a></p>
+                    </div>
+                </div>
             </footer>
         </div>
 <script>
@@ -99,6 +105,7 @@
     //L.marker([51.41475, -2.11718]).addTo(mymap).bindPopup("<b>HP 1 y 6 </b>. Abadía de Lacock, Wiltshire, Inglaterra, UK");
     //L.marker([51.66, -5.06]).addTo(mymap).bindPopup("<b>HP 7 parte 1 y 2 </b>. Freshwater West, Pembrokeshire, Gales, UK");
     //L.marker([51.693333, -0.419722]).addTo(mymap).bindPopup("<b>HP 7 parte dos </b>.Estudios Leavesden Film, Watford, Inglaterra, UK");
-</script>
+</script>         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
     </body>
 </html>
